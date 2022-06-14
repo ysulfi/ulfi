@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+     <title>Ulfi</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top shadow">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Ulfi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link active"  href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#typo">Typogrphy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+          <div class="profile text-center">
+              <div class="img-section">
+                  <img src="img/hijab.jpg" class="rounded-circle img-thumbnail">
+              </div>
+              <h3>Ulfi Julianti</h3>
+              <p>Student ╽ RPL </p>
+          </div>
+<br>
+<br>
+          <section id="About">
+               <div class="container w-10 p-4">
+                   <div class="about-text text-center">
+                       <div class="col ">     
+                       <h2>About Me</h2>
+                       <p>Saya Adalah Seorang Pelajar SMKN 4 Bogor Jurusan Rekayasa Perangkat Lunak</p>
+                       <p>Saat ini Saya Mempelajari Cara Membuat Web Dan Sekaligus Tugas Komjardas</p>
+                   </div>
+               </div>
+            </div>
+          </section>
+
+          <section id="typo">
+            <div class="container">
+              <div class="row text-center">
+                <div class="col">
+                  <h2>Typogrphy</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <div class="card shadow" data-aos="fade-up" data-aos-delay = "500">
+                    <img src="card/Life Is Suck.jpg" class="card-img-top" alt="project diego">
+                    <div class="card-body">
+                      <p class="card-text">Break The Rules</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="card shadow" data-aos="fade-up" data-aos-delay = "600">
+                    <img src="card/dif.jpg" class="card-img-top" alt="project diego">
+                    <div class="card-body">
+                      <p class="card-text">Real life Is More Difficult to try Bring Your Life</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="card shadow" data-aos="fade-up" data-aos-delay = "700">
+                    <img src="card/jghudb.jpg" class="card-img-top" alt="project diego">
+                    <div class="card-body">
+                      <p class="card-text">Healing To A Village </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+            <footer>
+              <div class="footer-text text-center">
+                <h3>Created by Ulfi Julianti</h3>
+              </div>
+            </footer>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+// Optional parameters
+effect: "cards",
+      grabCursor: true,
+// If we need pagination
+pagination: {
+  el: '.swiper-pagination',
+},
+
+// Navigation arrows
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+scrollbar: {
+  el: '.swiper-scrollbar',
+},
+});
+</script>
+    
+  </body>
+</html>
